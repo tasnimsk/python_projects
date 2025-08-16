@@ -95,3 +95,5 @@ class WelcomePage:
         self.load['value'] = 100
         self.root.update_idletasks()
         sleep(0.2)
+
+        self.root.destroy()
